@@ -3,7 +3,7 @@ import random
 choices=[-1,0,1]
 computer=random.choice(choices)
 
-youstr=input("Enter you input: 's' for snake,'w' for water,'g' for gun: ")
+youstr=input("Enter your input: 's' for snake,'w' for water,'g' for gun: ")
 youDict={'s':1,'w':-1,'g':0}
 reverseDict={1:'Snake',-1:'Water',0:'Gun'}
 
